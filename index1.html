@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Project</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        background: #0077b6;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      header p {
+        font-size: 1.1em;
+      }
+      .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 20px;
+        background: linear-gradient(135deg, #caf0f8, #90e0ef);
+      }
+
+      .hero-text {
+        flex: 1 1 400px;
+        max-width: 500px;
+        padding: 20px;
+      }
+
+      .hero-text h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+        color: #03045e;
+      }
+
+      .hero-text p {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+      }
+
+      .hero-text button {
+        background: #0077b6;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: 0.3s;
+      }
+
+      .hero-text button:hover {
+        background: #023e8a;
+      }
+
+      .hero-image {
+        flex: 1 1 400px;
+        max-width: 500px;
+        text-align: center;
+      }
+
+      .hero-image img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .features {
+        padding: 50px 20px;
+        background: #fff;
+        text-align: center;
+      }
+
+      .features h2 {
+        color: #0077b6;
+        margin-bottom: 30px;
+        font-size: 2em;
+      }
+
+      .feature-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .feature {
+        background: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+        width: 300px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .feature:hover {
+        transform: translateY(-5px);
+      }
+
+      .feature h3 {
+        margin-bottom: 10px;
+        color: #03045e;
+      }
+      footer {
+        background: #03045e;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+      }
+
+      footer p {
+        font-size: 0.9em;
+      }
+      @media (max-width: 768px) {
+        .hero {
+          flex-direction: column;
+        }
+        .hero-text,
+        .hero-image {
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Landing Page</h1>
+      <p>Simple and Clean Design for Beginners</p>
+    </header>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Welcome to Your First Landing Page</h2>
+        <p>
+          This project helps you practice HTML and CSS while exploring
+          creativity. Learn how to create columns, divide sections, and design a
+          visually appealing page.
+        </p>
+        <button>Get Started</button>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://via.placeholder.com/500x300"
+          alt="Landing Page Illustration"
+        />
+      </div>
+    </section>
+    <section class="features">
+      <h2>Key Features</h2>
+      <div class="feature-box">
+        <div class="feature">
+          <h3>Simple Layout</h3>
+          <p>
+            Learn to structure content into sections, ensuring readability and
+            flow.
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Beautiful Colors</h3>
+          <p>
+            Experiment with colors to make your page look lively and attractive.
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Responsive Design</h3>
+          <p>
+            Make your website adaptable to all screen sizes — desktop and
+            mobile.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 powar sushmitha bai. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
